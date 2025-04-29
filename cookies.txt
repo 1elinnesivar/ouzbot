@@ -1,4 +1,4 @@
-yt_dlp_options = {
-    "cookiefile": "cookies.txt",
-    # diğer ayarların...
-}
+.youtube.com    TRUE    /    TRUE    1714160132    SID    abcdefghijklmnopqrstuvwxyz
+.youtube.com    TRUE    /    TRUE    1714160132    HSID    abcdefghijklmnopqrstuvwxyz
+.youtube.com    TRUE    /    TRUE    1714160132    SSID    abcdefghijklmnopqrstuvwxyz
+.youtube.com    TRUE    /    TRUE    1714160132    SAPISID    abcdefghijklmnopqrstuvwxyz
