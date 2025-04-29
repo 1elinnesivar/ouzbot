@@ -5,9 +5,16 @@ from discord import app_commands
 from discord.ext import commands
 from dotenv import load_dotenv
 import yt_dlp
+import base64
 
 # .env dosyasını yükle
 load_dotenv()
+
+# COOKIES_BASE64 ortam değişkenini çöz ve cookies.txt olarak kaydet
+cookie_data = os.getenv("COOKIES_BASE64")
+if cookie_data:
+    with open("cookies.txt", "wb") as f:
+        f.write(base64.b64decode(cookie_data))
 
 # Bot ayarları
 intents = discord.Intents.default()
